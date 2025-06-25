@@ -233,6 +233,10 @@ If you encounter any issues or have questions, please:
 2. Create a new issue with a detailed description
 3. Include reproduction steps and your environment details
 
+## Related Packages
+
+**[@suin/auto-page-card](https://github.com/suin/auto-page-card)** is a remark plugin that automatically transforms markdown links into page cards. While this package provides React components for manual page card creation, `@suin/auto-page-card` offers automatic transformation. For Fumadocs users who prefer markdown syntax over JSX, we recommend using both packages together - install both, configure this package for the PageCard component, and add `@suin/auto-page-card` as a remark plugin to automatically convert `[Getting Started](./getting-started.mdx)` links into beautiful page cards.
+
 ## Related
 
 - [Fumadocs](https://fumadocs.vercel.app/) - The documentation framework this package extends
