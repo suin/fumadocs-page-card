@@ -91,6 +91,8 @@ description: Welcome to our documentation
 <PageCard href="./target.mdx" />
 ```
 
+![](screenshot.png)
+
 ## API Reference
 
 ### `getPageCardComponents(config)`
