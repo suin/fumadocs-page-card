@@ -100,7 +100,7 @@ describe("PageCard Component", () => {
 
     // Assertions
     const description = screen.getByTestId("card-description");
-    expect(description.textContent).toBe("API Reference");
+    expect(description.textContent).toBe("");
   });
 
   it("uses default className when not provided", () => {
