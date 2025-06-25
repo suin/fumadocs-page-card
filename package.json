@@ -1,0 +1,55 @@
+{
+  "name": "@suin/fumadocs-page-card",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/suin/fumadocs-page-card#readme",
+  "bugs": {
+    "url": "https://github.com/suin/fumadocs-page-card/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suin/fumadocs-page-card.git"
+  },
+  "license": "MIT",
+  "author": "suin",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./js/index.d.ts",
+      "import": "./js/index.js",
+      "require": "./js/index.js",
+      "default": "./js/index.js"
+    }
+  },
+  "main": "./js/index.js",
+  "module": "./js/index.js",
+  "types": "./js/index.d.ts",
+  "files": [
+    "js/**/*",
+    "ts/**/*",
+    "!ts/**/*.test.*",
+    "!ts/**/*.spec.*",
+    "!ts/**/__tests__/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf js *.tsbuildinfo",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^18.0.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@tsconfig/bun": "*",
+    "@tsconfig/node22": "*",
+    "@tsconfig/strictest": "*",
+    "@types/bun": "*",
+    "@types/react": "^19.1.8",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "fumadocs-core": "^15.5.4",
+    "fumadocs-ui": "^15.5.4"
+  }
+}
